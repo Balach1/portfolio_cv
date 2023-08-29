@@ -42,7 +42,8 @@ import { FC, useMemo } from "react";
             
             const homeData = useMemo(
                     () => ({
-                      headerOne: "I'm Balach Subra, a QA expert",
+                      headerOne: "Balach Subra,",
+                      headerTwo:" QA expert",
                       descriptionOne: "Making sure you delivering the best quality product for your end user!",
                       profileImage: "./src/assets/img/me.png",
                       sections: [                        {
