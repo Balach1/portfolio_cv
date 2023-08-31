@@ -1,11 +1,11 @@
 
     import { FC } from "react";
-    import { ResumeType } from "../../types/Section.tsx";
-    import { UserData } from "../../types/UserData.tsx";
-    import JobCard from "./JobCard.tsx";
+    import { EducationType } from "../../types/Section.js";
+    import { UserData } from "../../types/UserData.js";
+    import JobCard from "./JobCard.js";
 
-    const ResumeSection: FC<{
-      details: ResumeType;
+    const EducationSection: FC<{
+      details: EducationType;
       userData: UserData;
     }> = ({ details, userData }) => {
       return (
@@ -35,5 +35,5 @@
       );
     };
 
-    export default ResumeSection;
+    export default EducationSection;
   

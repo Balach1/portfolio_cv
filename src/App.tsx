@@ -31,7 +31,7 @@ import { FC, useMemo } from "react";
                 about: "testing this out",
                 skills: ["JavaScript","HTML","CSS","NodeJs","Python"],
                 projects: [{"name":"Royal Pharmaceutical Society","description":"Professional membership body for pharmacists and pharmacy students.","roles":["Leade Qa Specialist, Qa Manager"],"updatedAt":"current","image":"./src/assets/img/rps.jpeg","id":"268","slug":"test"},{"name":"LexisNexis","description":"LexisNexis legal & professional solutions, products, technology, & services","roles":["Qa Consultant, Quality Engineer Lvl 1-3"],"updatedAt":"2023-08-28T10:04:30.597Z","image":"./src/assets/img/ln.jpeg","id":"269","slug":"title"}, {"name":"Sparta Global","description":"Providing cross-functional teams to power short-term and long-term projects.","roles":["SDET"],"updatedAt":"2023-08-28T10:04:30.597Z","image":"./src/assets/img/sg.png","id":"269","slug":"title"}], 
-                work: [{"id":84,"company":"test","position":"test","startDate":"12/12/2012","endDate":"12/12/2013","description":"test","orderId":1,"image":"https://picsum.photos/400/400"}],
+                work: [{"id":84,"company":"Coventry University","position":"Electrical Systems Engineering BEng (Hons)","startDate":"09/2010","endDate":"04/2015","description":"","orderId":1,"image":"./src/assets/img/cov.jpg"}],
                 role: "USER",
                 profession: "SDET/ QA",
                 services: ["QUALITY_ASSURANCE","DEVOPS","CLOUD_COMPUTING","IT_CONSULTATION"],
@@ -71,19 +71,19 @@ import { FC, useMemo } from "react";
                         {
                           type: "STORY",
                           details: {
-                            headerOne: "Designing since I was ? years old",
-                            descriptionOne: "I started designing when I was ? years old. My first designs were for my school projects. I was fascinated by the idea of creating something that people can interact with. I studied design for 5 years in college and have been working as a designer for 3 years.",
-                            bulletOne: "Passionate about design from a young age.",
-                            bulletTwo: "Five years of design education, three professionally.",
-                            bulletThree: "Strong advocate of user-centered design.",
-                            imageOne: "https://assets.website-files.com/63360c0c2b86f80ba8b5421a/633b55bcb4baec57b75b66fd_desigining-experience-paperfolio-webflow-template.png",
+                            headerOne: "Breaking things since a child",
+                            descriptionOne: "As far back as I can remember I've always had a knack at breaking things, both unintentionally and intentionally. I was always curious to how things worked and how it was built. This curiousocity was a what lead me down the path of engineering. I studied electrical systems for 5 years in university and have been working as a Qa for 6 years.",
+                            bulletOne: "Passionate about testing.",
+                            bulletTwo: "Keen eye for Quality.",
+                            bulletThree: "Strong advocate of best design practices.",
+                            imageOne: "https://gifdb.com/images/thumbnail/office-space-film-workers-kicking-printer-to-destroy-v16rlu070kpzk5gq.gif",
                             order: 1
                           }
                         },
                         {
-                          type: "RESUME",
+                          type: "EDUCATION",
                           details: {
-                            headerOne: "Take a look at my resume",
+                            headerOne: "Education",
                             order: 2
                           }
                         },
@@ -114,15 +114,15 @@ import { FC, useMemo } from "react";
                       headerOne: "Contact Me",
                       descriptionOne: "Don't hesitate to get in touch! Whether you're looking for a design consult, interested in a collaboration, or just want to say hello, I'd be delighted to hear from you. I strive to respond promptly and look forward to our potential correspondence!",
                       sections: [
-                        {
-                          type: "FAQ",
-                          details: {
-                            headerOne: "Frequently Asked Questions",
-                            descriptionOne: "From understanding my design process to discussing project timelines, I've gathered responses to questions often asked by clients and collaborators. If you can't find your answer here, feel free to reach out!",
-                            faq: [{"question":"What is your design process?","answer":"My design process starts with understanding the client's needs, then moving onto research, ideation, prototyping, and finally, implementation.","id":"158"},{"question":"How long does a project usually take?","answer":"The duration of a project varies depending on its complexity and scope, but typically it ranges from a few weeks to a few months.","id":"159"},{"question":"Do you collaborate with other designers?","answer":"Yes, I often collaborate with other designers and believe that teamwork can lead to more innovative and comprehensive solutions.","id":"160"},{"question":"What types of projects do you work on?","answer":"I work on a wide range of projects, from website and app design to branding and graphic design. Each project brings its own unique challenges and opportunities.","id":"161"},{"question":"How can I contact you for a project?","answer":"You can reach out to me via the contact form on this website, or directly through email. I look forward to discussing how we can work together.","id":"162"}],
-                            order: 1
-                          }
-                        },
+                        // {
+                        //   type: "FAQ",
+                        //   details: {
+                        //     headerOne: "Frequently Asked Questions",
+                        //     descriptionOne: "From understanding my design process to discussing project timelines, I've gathered responses to questions often asked by clients and collaborators. If you can't find your answer here, feel free to reach out!",
+                        //     faq: [{"question":"What is your Qa process?","answer":"My Qa process starts with understanding the client's needs, then moving onto research, requirement gathering, prototyping, and finally, implementation.","id":"158"},{"question":"How long does a project usually take?","answer":"The duration of a project varies depending on its complexity and scope, but typically it ranges from a few weeks to a few months.","id":"159"},{"question":"Do you collaborate with other Qa's?","answer":"Yes, I often collaborate with other various Qa's and believe that teamwork can lead to more innovative and comprehensive solutions.","id":"160"},{"question":"What types of projects do you work on?","answer":"I work on a wide range of projects, from website and apps to APIS and cloud infrastructures. Each project brings its own unique challenges and opportunities.","id":"161"},{"question":"How can I contact you for a project?","answer":"You can reach out to me via the contact form on this website, or directly through email. I look forward to discussing how we can work together.","id":"162"}],
+                        //     order: 1
+                        //   }
+                        // },
                       ],
                     }),
                     []

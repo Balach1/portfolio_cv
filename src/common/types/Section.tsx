@@ -17,7 +17,7 @@ type StoryType = {
               order: number;
             };
 
-            type ResumeType = {
+            type EducationType = {
               headerOne: string;
               order: number;
             };
@@ -40,8 +40,8 @@ type StoryType = {
               order: number;
             };
 
-            type SectionDetails = StoryType | ResumeType | SkillType | FAQType | ValueType;
-            type SectionType = "STORY" | "RESUME" | "SKILL" | "FAQ" | "VALUE";
+            type SectionDetails = StoryType | EducationType | SkillType | FAQType | ValueType;
+            type SectionType = "STORY" | "EDUCATION" | "SKILL" | "FAQ" | "VALUE";
 
             type Section = {
               type: SectionType;
@@ -51,7 +51,7 @@ type StoryType = {
             export type {
               Section,
               StoryType,
-              ResumeType,
+              EducationType,
               SkillType,
               FAQType,
               ValueType,

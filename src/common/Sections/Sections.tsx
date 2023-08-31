@@ -4,13 +4,13 @@
     import SkillSection from "./Skill/SkillSection.tsx";
     import {
       FAQType,
-      ResumeType,
+      EducationType,
       SkillType,
       StoryType,
       ValueType,
     } from "../types/Section.tsx";
     import StorySection from "./Story/StorySection.tsx";
-    import ResumeSection from "./Resume/ResumeSection.tsx";
+    import EducationSection from "./Education/EducationSection.tsx";
     import FAQSection from "./FAQ/FaqSection.tsx";
     import ValueSection from "./Value/ValueSection.tsx";
     import { HomeData } from "../types/HomeData.tsx";
@@ -53,12 +53,12 @@
                     );
                   }
                   break;
-                case "RESUME":
+                case "EDUCATION":
                   if ("headerOne" in details) {
                     sectionComponent = (
-                      <ResumeSection
+                      <EducationSection
                         key={index}
-                        details={details as ResumeType}
+                        details={details as EducationType}
                         userData={userData}
                       />
                     );
